@@ -5,7 +5,7 @@
 }
 header{
     width: 100vw;
-    height: 180px;
+    height: 150px;
     background-color: #f7f7f7;
     display: flex;
     align-items: center;
@@ -50,4 +50,51 @@ header nav{
     padding: 2px 32px;
     background-color: #ccc;
     border-radius: 4px;
+}
+#section-celeste{
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(107, 177, 238, 0.933);
+    gap: 60px;
+}
+#azul{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    background-color: blue;
+    border-radius: 4px;
+    padding: 40px;
+}
+.section-celeste_text{
+    width: 40%;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.flex-listado{
+    display: flex;
+    gap: 16px;
+}
+.flex-listado_cuadr-celeste{
+    width: 24px;
+    height: 24px;
+    background-color: rgba(107, 177, 238, 0.933);
+    border-radius: 2px;
+}
+.flex-listado_rect-blanco{
+    width: 80%;
+    height: 24px;
+    background-color: white;
+    border-radius: 2px;
+}
+.section-celeste_text h1{
+    padding-bottom: 8px;
+}
+#section-blanca{
+    
 }
